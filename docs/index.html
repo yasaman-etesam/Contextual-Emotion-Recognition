@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-          content="Visual Emotional Theory of Mind: Large Vision and Language Models' Capabilities and Limitations">
+          content="Contextual Emotion Recognition using Large Vision Language Models">
     <meta name="author" content="Yasaman Etesam,
                                  Ozge Nilay Yalcin,
                                  Chuxuan Zhang,
                                   Angelica Lim">
 
-    <title>Visual Emotional Theory of Mind: Large Vision and Language Models' Capabilities and Limitations</title>
+    <title>Contextual Emotion Recognition using Large Vision Language Models</title>
     <!-- Bootstrap core CSS -->
     <!--link href="bootstrap.min.css" rel="stylesheet"-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -28,7 +28,7 @@
 <body>
 <div class="jumbotron jumbotron-fluid">
     <div class="container"></div>
-    <h2>Visual Emotional Theory of Mind: Large Vision and Language Models' Capabilities and Limitations</h2>
+    <h2>Contextual Emotion Recognition using Large Vision Language Models</h2>
     <!-- <h2>CRV 2022</h2> -->
     <hr>
     <p class="authors">
@@ -38,8 +38,8 @@
         <a href="https://www.linkedin.com/in/angelicajeannelim/"> Angelica Lim</a>
     </p>
     <div class="btn-group" role="group" aria-label="Top menu">
-        <a class="btn btn-primary" href="https://github.com/rosielab/Fast-and-Slow">Code</a>
-        <a class="btn btn-primary" href="http://arxiv.org/abs/2310.19995">Paper</a> 
+        <a class="btn btn-primary" href="https://github.com/yasaman-etesam/Contextual-Emotion-Recognition">Code</a>
+        <a class="btn btn-primary" href="">Paper</a> 
     </div>
 </div>
 
@@ -47,8 +47,7 @@
     <div class="section">
 	    <h2>Overview</h2>
         <p>
-The visual emotional theory of mind problem is an image emotion recognition task, specifically asking "How does the person in the bounding box feel?" Facial expressions, body pose, contextual understanding and implicit commonsense knowledge all contribute to the difficulty of the task, making this type of emotion estimation in context currently one of the hardest problems in affective computing. The goal of this work is to evaluate the emotional knowledge embedded in recent large vision language models (CLIP, LLaVA) and large language models (GPT-3.5, MPT, Falcon, Baichuan) on the Emotions in Context (EMOTIC) dataset. In order to evaluate a purely text-based language model on images, we construct "narrative captions" relevant to emotion perception, using a set of 872 physical social signal descriptions related to 26 emotional categories, along with 224 labels for emotionally salient environmental contexts, sourced from writer's guides for character expressions and settings. We evaluate the use of the resulting captions in an image-to-language-to-emotion task. Experiments using zero-shot vision-language models on EMOTIC show that a considerable gap remains in the emotional theory of mind task compared to prior work trained on the dataset, and that captioning with physical signals and environment provides a better basis for emotion recognition than captions based only on activity. Also, based on our findings, we propose that combining "fast" and "slow" reasoning is a promising way forward to improve emotion recognition systems.
-	</p>
+"How does the person in the bounding box feel?" Achieving human-level recognition of the apparent emotion of a person in real world situations remains an unsolved task in computer vision. Facial expressions are not enough: body pose, contextual knowledge, and commonsense reasoning all contribute to how humans perform this emotional theory of mind task. In this paper, we examine two major approaches enabled by recent large vision language models: 1) image captioning followed by a language-only LLM, and 2) vision language models, under zero-shot and fine-tuned setups. We evaluate the methods on the Emotions in Context (EMOTIC) dataset and demonstrate that a fine-tuned vision language model, even on a small dataset, significantly outperforms traditional baselines. The results of this work aim to help robots and agents perform emotionally sensitive decision-making and interaction in the future.	</p>
 
 <div class="section">
         <div class="row align-items-center">
@@ -58,7 +57,7 @@ The visual emotional theory of mind problem is an image emotion recognition task
 	
         </div>
 	<p>
-            An example output comparing our method to <a href="https://github.com/haotian-liu/LLaVA"> LLaVA</a> and CLIP.
+            An example output showing results of different methods.
         </p>
         <hr>        
     </div>
@@ -95,7 +94,7 @@ The visual emotional theory of mind problem is an image emotion recognition task
 <!--         <div class="bibtexsection">
          @inproceedings{,
             author = {},
-            title = {Visual Emotional Theory of Mind: Large Vision and Language Models' Capabilities and Limitations},
+            title = {Contextual Emotion Recognition using Large Vision Language Models},
             booktitle = {},
             year = 2023
          }            		
