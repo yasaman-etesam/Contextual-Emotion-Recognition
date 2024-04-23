@@ -1,6 +1,6 @@
 # Contextual-Emotion-Recognition
 
-Generating Narracap:
+**Generating Narracap:**
 
 1. Create the environment:
 ```bash
