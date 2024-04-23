@@ -4,6 +4,7 @@
 
 1. Create the environment:
 ```bash
+cd narracap
 conda create -n narracap python=3.10 -y
 conda activate narracap
 pip install -r requirements.txt
