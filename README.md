@@ -14,3 +14,10 @@ pip install -r requirements.txt
 ```bash
 python main.py --image_BB "path/to/images/with/bb" --image_cropped "path/to/cropped/bb/of/target" --emotic "path/to/emotic"
 ```
+
+
+**Evaluation(bootstrap):**
+```bash
+cd evaluation
+python bootstarp.py --input "input questions and IDs to LLaVA" --output "LLaVA responses"
+```
