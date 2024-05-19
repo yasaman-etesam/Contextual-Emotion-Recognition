@@ -18,6 +18,6 @@ python main.py --image_BB "path/to/images/with/bb" --image_cropped "path/to/crop
 
 **Evaluation(bootstrap):**
 ```bash
-cd evaluation
+cd llava_evaluation
 python bootstarp.py --input "input questions and IDs to LLaVA" --output "LLaVA responses"
 ```
